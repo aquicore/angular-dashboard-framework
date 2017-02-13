@@ -1,4 +1,4 @@
-<md-card adf-id="{{definition.wid}}" adf-widget-type="{{definition.type}}" ng-class="widgetClasses(widget, definition)" class="widget">
+<md-card style="height: {{definition.height}}" adf-id="{{definition.wid}}" adf-widget-type="{{definition.type}}" ng-class="widgetClasses(widget, definition)" class="widget">
   <md-card-title ng-if="definition.title || editMode">
     <md-card-title-text>
       <div ng-include src="definition.titleTemplateUrl"></div>
